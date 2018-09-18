@@ -1,0 +1,58 @@
+/* CSS Positionaning */
+*{
+    box-sizing: border-box;
+}
+body{
+font-family: 'Times New Roman', Times, serif,Georgia;
+font-size:inherit;
+color:blueviolet;
+line-height:35px;
+
+}
+.wrapper
+{
+    width: 600px;
+    margin:0 auto 0 auto;
+    padding: 10px;
+}
+h1{
+    color:burlywood;
+    font-size: 30px;
+    margin-bottom: 30px;
+    line-height:45px;
+}
+#full-size
+{
+    background:#ccc;
+    width:400px;
+    height:400px;
+    position: relative;
+    bottom: 20%;
+    top: 20%;
+    left:20%;
+    right:20%;
+    text-align: center;
+}
+#bottom-right
+{
+    background:#666;
+    padding:25px;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    right: -30px;
+}
+#Top-Left
+{
+    background: #ccc;
+    padding:20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 3px solid #CCC;
+    text-align: center;
+}
+#para1
+{
+
+}
